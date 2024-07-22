@@ -13,12 +13,12 @@ const About = () => {
   return (
     <>
       <Box
-        mt="100px"
         p="0"
         m="0"
         boxSizing="border-box"
         fontFamily={theme.fonts.body}
         cursor="pointer"
+        mt={{base:'100px',md:'100px',lg:'150px'}}
       >
         <AboutusSection1 />
         <AboutusSection2 />

@@ -22,7 +22,7 @@ const AboutusSection1 = () => {
       >
         <Box //backgroundtext
           position="absolute"
-          top="50%"
+          top={{base:'50%',md:'50%',lg:'25%'}}
           left={{ base: "5%", md: "5%", lg: "10%", xl: "20%" }}
           zIndex="1"
           color="white"
