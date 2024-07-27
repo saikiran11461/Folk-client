@@ -144,7 +144,7 @@ const AboutusTimeline = () => {
     },[])
    
   return (
-    <Box w={'100%'} overflowX={'hidden'} mmy={['1rem','1rem','2rem', '3rem']} mt='20px'>
+    <Box w={'100%'} overflowX={'hidden'} mmy={['1rem','1rem','2rem', '3rem']} >
       <Container
         w={["100%", "100%", "90%", "90%"]}
         maxW="1500px"

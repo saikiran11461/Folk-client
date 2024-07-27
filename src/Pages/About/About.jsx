@@ -18,7 +18,7 @@ const About = () => {
         boxSizing="border-box"
         fontFamily={theme.fonts.body}
         cursor="pointer"
-        mt={{base:'100px',md:'100px',lg:'150px'}}
+        mt='100px'
       >
         <AboutusSection1 />
         <AboutusSection2 />

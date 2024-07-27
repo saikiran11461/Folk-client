@@ -192,7 +192,7 @@ const AboutusSection3 = () => {
     <>
       {/* ourAssociateSection */}
       <Box p={{ base: "20px", md: "50px", lg: "0" }} mt='30px'> 
-        <Box textAlign="center" fontSize="2.5rem" fontWeight="300" mb="30px">
+        <Box textAlign="center" fontSize="2.5rem" fontWeight="300" mb="20px">
           Our Associates
         </Box>
         <Box
@@ -206,7 +206,7 @@ const AboutusSection3 = () => {
           <Box
             position="relative"
             h={{ base: "420px", md: "420px", lg: "420px", xl: "420px" }}
-            w={{ base: "100%", md: "100%", lg: "90%", xl: "60%" }}
+            w={{ base: "100%", md: "100%", lg: "90%", xl: "60%"}}
             display="flex"
             flexDirection={{
               base: "column",
@@ -251,8 +251,8 @@ const AboutusSection3 = () => {
               top={{ base: "70%", md: "70%", lg: "70px", xl: "70px" }}
               right={{ base: "none", md: "-30px", lg: "30px", xl: "30px" }}
               bg="white"
-              p={{ base: "10px", md: "10px", lg: "30px", xl: "50px" }}
-              overflow={{ base: "auto", md: "auto", lg: "hidden" }}
+              p={{ base: "10px", md: "10px", lg: "30px", xl: "40px" }}
+              overflow={{ base: "auto", md: "auto", lg: "auto",xl:'auto' }}
               boxShadow="0px 0px 5px 1px rgba(0, 0, 0, 0.3)"
               textAlign="justify"
               fontSize={{ base: "0.8rem", md: "0.8rem", lg: "1rem" }}
@@ -334,8 +334,8 @@ const AboutusSection3 = () => {
               top={{ base: "70%", md: "70%", lg: "70px", xl: "70px" }}
               right={{ base: "none", md: "-30px", lg: "30px", xl: "30px" }}
               bg="white"
-              p={{ base: "10px", md: "10px", lg: "30px", xl: "50px" }}
-              overflow={{ base: "auto", md: "auto", lg: "hidden" }}
+              p={{ base: "10px", md: "10px", lg: "30px", xl: "40px" }}
+              overflow={{ base: "auto", md: "auto", lg: "auto",xl:'auto' }}
               boxShadow="0px 0px 5px 1px rgba(0, 0, 0, 0.3)"
               textAlign="justify"
               fontSize={{ base: "0.8rem", md: "0.8rem", lg: "1rem" }}
