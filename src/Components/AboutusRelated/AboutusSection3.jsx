@@ -191,7 +191,7 @@ const AboutusSection3 = () => {
   return (
     <>
       {/* ourAssociateSection */}
-      <Box p={{ base: "20px", md: "50px", lg: "0" }} mt='30px'> 
+      <Box p={{ base: "20px", md: "50px", lg: "0" }} mt={{base:'30px',md:'0px',lg:'30px'}}> 
         <Box textAlign="center" fontSize="2.5rem" fontWeight="300" mb="20px">
           Our Associates
         </Box>
